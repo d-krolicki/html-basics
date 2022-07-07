@@ -1,0 +1,20 @@
+body {
+    background-color: purple;
+    color: green;
+}
+
+h1 {
+    background-color: pink;
+    color: brown;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid cyan;
+    padding: 10px;
+}
+
+p {
+    background-color: yellow;
+    color:black;
+    font-size: 125%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
