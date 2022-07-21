@@ -7,10 +7,53 @@ h1 {
     padding: 10px;
 }
 
-p {
-    background-color: yellow;
-    color:black;
-    font-size: 125%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-image: url("images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
+table, th, td {
+    border: 2px solid;
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+    /* border-style: dashed; */
+    border-color: purple;
+}
+
+th {
+    text-align: left;
+    color:deeppink;
+}
+
+th, td {
+    color:deeppink;
+    padding: 15px
+}
+
+td {
+    color:deeppink;
+}
+
+table {
+    border-spacing: 20px;
+}
+
+caption {
+    color:deeppink;
+    font-size: large;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font:bolder;
+}
+
+th, td:nth-child(even) {
+    background-color:rgba(116, 250, 49, 0.521);
+}
+th, td:nth-child(odd) {
+    background-color: rgba(251, 255, 0, 0.596);
+}
+
+th:hover, td:hover{
+    background-color: rgba(4, 205, 255, 0.658)
+}
