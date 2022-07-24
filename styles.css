@@ -1,7 +1,7 @@
 body {
-    background-image: url("images/mountain.jpg");
+    /* background-image: url("images/mountain.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     background-size: 100% 100%;
 }
 
@@ -92,8 +92,31 @@ li a:hover {
     text-align: center;
 }
 
-iframe {
-    height: 200;
-    width: 400;
-    border: 5px solid red;
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+aside {
+width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+font-style: italic;
+background-color: lightgray;
 }
